@@ -144,11 +144,13 @@ a:hover:not(.btn) {
     text-align: center;
     min-height: 70vh;
     height: 100%;
+    aspect-ratio: inherit;
   }
 }
 @media (max-width: 399.98px) {
   .photo-block__container {
     min-height: 100vh;
+    aspect-ratio: inherit;
   }
 }
 .info {
