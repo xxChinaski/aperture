@@ -8,8 +8,8 @@
   <title>Aperture</title>
 </head>
 
-  <body>
-    <header class="header">
+  <body class="-scroll-disable">
+    <header class="header -loading">
   <div class="header__container container">
     <div class="header__content">
       <a href="#" class="header__logo">
@@ -38,13 +38,14 @@
     </div>
   </div>
 </header>
- <main class="main">
-  <section class="main__section section section-first first-section">
-    <div class="first-section__container container">
-      <div class="first-section__content">
-        <h3 class="first-section__subtitle">photographer & filmmaker</h3>
-        <h1 class="first-section__title">Aperture Studios</h1>
-        <p class="first-section__text">
+ <main class="main ">
+  <section class="main__section section section-first first-section -img-section">
+    <div class="first-section__wrapper"></div>
+    <div class="first-section__container container -loading">
+      <div class="first-section__content ">
+        <h3 class="first-section__subtitle subtitle">photographer & filmmaker</h3>
+        <h1 class="first-section__title title">Aperture Studios</h1>
+        <p class="first-section__text text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros elementum tristique. Duis cursus, mi quis viverra
           ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
@@ -67,53 +68,63 @@
         The areas that we're specialized in.
       </h3>
       <div class="second-section__content">
-        <div class="second-section__item item item-1">
-          <h3 class="item__title">product photography</h3>
-          <p class="item__text">
-            Cras commodo consequat orci, in convallis risus egestas non. Nulla
-            efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero
-            ac, cursus quam.
-          </p>
-          <a href="#" class="item__btn btn">read more</a>
+        <div class="second-section__item item item-1 ">
+          <div class="item__bg"></div>
+          <div class="item__content">
+            <h3 class="item__title">product photography</h3>
+            <p class="item__text">
+              Cras commodo consequat orci, in convallis risus egestas non. Nulla
+              efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero
+              ac, cursus quam.
+            </p>
+            <a href="#" class="item__btn btn">read more</a>
+          </div>
         </div>
-        <div class="second-section__item item item-2">
-          <h3 class="item__title">architecture photography</h3>
-          <p class="item__text">
-            Aenean porta neque eget consequat fringilla. Vestibulum ultrices,
-            orci nec egestas pharetra, ligula est semper enim, nec auctor sapien
-            leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo
-            imperdiet nec.
-          </p>
-          <a href="#" class="item__btn btn">read more</a>
+        <div class="second-section__item item item-2 ">
+          <div class="item__bg"></div>
+          <div class="item__content">
+            <h3 class="item__title">architecture photography</h3>
+            <p class="item__text">
+              Aenean porta neque eget consequat fringilla. Vestibulum ultrices,
+              orci nec egestas pharetra, ligula est semper enim, nec auctor sapien
+              leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo
+              imperdiet nec.
+            </p>
+            <a href="#" class="item__btn btn">read more</a>
+          </div>
         </div>
-        <div class="second-section__item item item-3">
-          <h3 class="item__title">drone photography</h3>
-          <p class="item__text">
-            Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
-            Duis tristique sed lorem a vestibulum. Cras commodo consequat orci,
-            in convallis risus egestas non. Nulla efficitur auctor hendrerit.
-            Etiam ut orci varius, faucibus libero ac, cursus quam.
-          </p>
-          <a href="#" class="item__btn btn">read more</a>
+        <div class="second-section__item item item-3 ">
+          <div class="item__bg"></div>
+          <div class="item__content">
+            <h3 class="item__title">drone photography</h3>
+            <p class="item__text">
+              Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+              Duis tristique sed lorem a vestibulum. Cras commodo consequat orci,
+              in convallis risus egestas non. Nulla efficitur auctor hendrerit.
+              Etiam ut orci varius, faucibus libero ac, cursus quam.
+            </p>
+            <a href="#" class="item__btn btn">read more</a>
+          </div>
         </div>
-        <div class="second-section__item item item-4">
-          <h3 class="item__title">wildlife photography</h3>
-          <p class="item__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros
-            quis consectetur. Morbi neque ex, condimentum dapibus congue et,
-            vulputate ut ligula. Vestibulum sit amet urna turpis.
-          </p>
-          <a href="#" class="item__btn btn">read more</a>
+        <div class="second-section__item item item-4 ">
+          <div class="item__bg"></div>
+          <div class="item__content">
+            <h3 class="item__title">wildlife photography</h3>
+            <p class="item__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros
+              quis consectetur. Morbi neque ex, condimentum dapibus congue et,
+              vulputate ut ligula. Vestibulum sit amet urna turpis.
+            </p>
+            <a href="#" class="item__btn btn">read more</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <section
-    class="main__section section section-third third-section photo-block"
-  >
+  <section class="main__section section section-third third-section photo-block -img-section">
     <div class="third-section__container container photo-block__container">
-      <div class="third-section__content photo-block__content">
+      <div class="third-section__content photo-block__content content">
         <h3 class="third-section__title photo-block__title">
           sunset at mount fuji
         </h3>
@@ -151,11 +162,9 @@
       </div>
     </div>
   </section>
-  <section
-    class="main__section section section-fifth fifth-section photo-block"
-  >
+  <section class="main__section section section-fifth fifth-section photo-block">
     <div class="fifth-section__container container photo-block__container">
-      <div class="fifth-section__content photo-block__content">
+      <div class="fifth-section__content photo-block__content content">
         <h3 class="fifth-section__title photo-block__title">monstera leafs</h3>
         <p class="fifth-section__text photo-block__text">
           Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices,
@@ -179,54 +188,27 @@
         </h3>
         <ul class="sixth-section__list">
           <li class="sixth-section__link">
-            <a href="#"
-              ><img
-                src="img/client-logo01.svg"
-                alt=""
-                class="sixth-section__logo"
-            /></a>
+            <a href="#"><img src="img/client-logo01.svg" alt="" class="sixth-section__logo" /></a>
           </li>
           <li class="sixth-section__link">
-            <a href="#"
-              ><img
-                src="img/client-logo02.svg"
-                alt=""
-                class="sixth-section__logo"
-            /></a>
+            <a href="#"><img src="img/client-logo02.svg" alt="" class="sixth-section__logo" /></a>
           </li>
           <li class="sixth-section__link">
-            <a href="#"
-              ><img
-                src="img/client-logo03.svg"
-                alt=""
-                class="sixth-section__logo"
-            /></a>
+            <a href="#"><img src="img/client-logo03.svg" alt="" class="sixth-section__logo" /></a>
           </li>
           <li class="sixth-section__link">
-            <a href="#"
-              ><img
-                src="img/client-logo04.svg"
-                alt=""
-                class="sixth-section__logo"
-            /></a>
+            <a href="#"><img src="img/client-logo04.svg" alt="" class="sixth-section__logo" /></a>
           </li>
           <li class="sixth-section__link">
-            <a href="#"
-              ><img
-                src="img/client-logo05.svg"
-                alt=""
-                class="sixth-section__logo"
-            /></a>
+            <a href="#"><img src="img/client-logo05.svg" alt="" class="sixth-section__logo" /></a>
           </li>
         </ul>
       </div>
     </div>
   </section>
-  <section
-    class="main__section section section-seventh seventh-section photo-block"
-  >
+  <section class="main__section section section-seventh seventh-section photo-block">
     <div class="seventh-section__container container photo-block__container">
-      <div class="seventh-section__content photo-block__content">
+      <div class="seventh-section__content photo-block__content content">
         <h3 class="seventh-section__title photo-block__title">
           starfall in the himalayas
         </h3>
