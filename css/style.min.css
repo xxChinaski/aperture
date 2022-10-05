@@ -598,7 +598,7 @@ a:hover:not(.btn) {
   }
 }
 .third-section {
-  background: url("../img/bg02.png") center/120% 120% no-repeat fixed;
+  background: url("../img/bg02.png") center/cover no-repeat fixed;
 }
 
 .fourth-section__container {
